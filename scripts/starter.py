@@ -27,9 +27,10 @@ def print_headers():
     print("#" * 80)
     print("#" + " " * 18 + "Time to Hunt for Cyber Threats on Twitter!" + " " * 18 + "#")
     print("#" * 80)
-    print("Twitter Streamer ver. 2.1")
+    print("Twitter Streamer ver. 3.0")
     print("This version of the Twitter Streamer has been optimized for public use.\n")
     print("Developed by @langlois925 & @cyb3rdude")
+    print("Contributors: None as of yet...")
     print("#" * 80, '\n')
     time.sleep(5)
 
