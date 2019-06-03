@@ -57,7 +57,7 @@ Further analytics may be available depending on the configuration of the applica
     * `python3.7 -m pip install six`
 * **tweepy** | Version 3.7.0
     * `python3.7 -m pip install tweepy`
-* **urllib3** | Version 1.24.1
+* **urllib3** | Version 1.24.2
     * _This package is included by default in the Python 3.7 distro._
     * `python3.7 -m pip install urllib3`
 
