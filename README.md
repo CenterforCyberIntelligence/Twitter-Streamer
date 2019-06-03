@@ -4,6 +4,8 @@ _Version 3.0_
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Twitter Streamer</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://centerforcyberintelligence.org/" property="cc:attributionName" rel="cc:attributionURL">Center for Cyber Intelligence</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
+<b><a rel="slack-channel" href="https://join.slack.com/t/centerforcyberintel/shared_invite/enQtNTc1OTYxMjM4MTEzLTA3YWU3NDBmNzU3OTQyYTRmOGI0NTZiNjI1NTQ5YTc1Yjk1YWM0MTNhODUxZjU3N2ZiNTFmYTE0OGY0ZTQ5Zjg">Join our Slack Channel!</a></b>
+
 ## Real-Time Twitter Cyber Threat Monitoring Script
 The Twitter Streamer is a Python application intended to notify cyber intelligence analysts of cyber threats found on 
 Twitter that are targeting specific organizations
