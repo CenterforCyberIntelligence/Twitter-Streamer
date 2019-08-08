@@ -36,7 +36,7 @@ def main():
         notifier.error_notify(str(e), 'Streamer Error -- NO DATA AVAILABLE -- ')
         starter.restart_program()
         reload(main())
-
+        main()
 
 if __name__ == '__main__':
     main()
