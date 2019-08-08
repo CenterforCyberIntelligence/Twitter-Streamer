@@ -2,7 +2,7 @@
 
 import datetime
 from .email_mailer import sendEmail
-from .notifier import notify
+from .notifier import notify, error_notify
 from .starter import domain_loader, username_loader, account_Loader, get_blacklist, get_track
 from .utils import write_to_json,stringify_url,display_tweet, stringify_hashtags_lower
 from urllib import parse
@@ -103,11 +103,12 @@ class listener(StreamListener):
 
         except Exception as e:
             # TODO: Rework this entire section - this is terrible
-
+            error_notify(e,status)
             print("we suck at %s" % e)
 
     def on_error(self, status_code):
         #TODO: Figure out what kind of error handling we want, we could through it into a log instead print screen
+
         print(status_code)
 
     def health_notify(self):
